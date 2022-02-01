@@ -1,0 +1,23 @@
+.carousel-region{
+	width: 100%;
+	height: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+	img {
+		width: 500px;
+		height: 350px;
+		border-radius: 10px;
+	}
+}
+@media only screen and (max-width: 576px) {
+	.carousel-region {
+		img {
+			height:200px;
+		}
+	}
+}
+
+.carousel-control-next, .carousel-control-prev {
+	z-index: -1;
+}

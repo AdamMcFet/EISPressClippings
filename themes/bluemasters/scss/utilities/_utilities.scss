@@ -1,0 +1,37 @@
+.pager__items{
+  list-style-type: none;
+  a {
+    margin-bottom: 2px;
+  color: black;
+  font-size: 20px;
+  float: left;
+  padding: 8px 16px;}
+
+  a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+  text-decoration: none;
+}
+  a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+}
+table {
+    table-layout: fixed;
+    max-width: 100%;
+}
+
+tbody {
+    display: block;
+    overflow: scroll;
+}
+
+#edit-actions {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type='text'] {
+  width: 100%;
+}
