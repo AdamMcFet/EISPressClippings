@@ -107,8 +107,8 @@ a.button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-  background-color: #3b5998;
-  border-color: #3b5998;
+  background-color: #007fb5;
+  border-color: #000000;
 }
 a.button.button--outline,
 .button.button--outline > a {

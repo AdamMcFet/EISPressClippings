@@ -10,7 +10,7 @@
   float: none;
 }
 .bef-exposed-form .form--inline > .form-item {
-  float: left; /* LRT */
+  float: none; /* LRT */
 }
 .bef-exposed-form .form--inline .bef--secondary {
   clear: left;

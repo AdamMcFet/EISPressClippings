@@ -55,8 +55,8 @@ label.option {
 }
 .form-checkboxes .form-item,
 .form-radios .form-item {
-  margin-top: 0.4em;
-  margin-bottom: 0.4em;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 .form-type-radio .description,
 .form-type-checkbox .description {

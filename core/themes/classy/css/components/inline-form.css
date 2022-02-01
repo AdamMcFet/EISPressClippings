@@ -5,7 +5,7 @@
 
 .form--inline .form-item {
   float: left; /* LTR */
-  margin-right: 0.5em; /* LTR */
+  margin-right: 1em; /* LTR */
 }
 [dir="rtl"] .form--inline .form-item {
   float: right;
