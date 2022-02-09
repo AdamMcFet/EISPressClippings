@@ -1,0 +1,5 @@
+<?php
+
+function DateFormatUK(&$js) {
+$js['settings']['data'][] = array('better_exposed_filters'=> array('bef_dateformat'=>'dd/mm/yy'));
+}

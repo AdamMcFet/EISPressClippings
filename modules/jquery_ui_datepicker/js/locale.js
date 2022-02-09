@@ -16,6 +16,7 @@
         isRTL: 0
       }, drupalSettings.jquery.ui.datepicker);
       $.datepicker.setDefaults($.datepicker.regional['drupal-locale']);
+      $('.bef-datepicker').datepicker({ dateFormat: 'dd/mm/yy' });
     }
   };
 })(jQuery, Drupal, drupalSettings);
