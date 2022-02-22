@@ -1,5 +1,0 @@
-name: Pressclipptheme
-type: theme
-description: press clipping site
-base theme: conference_lite
-core_version_requirement: ^8 || ^9

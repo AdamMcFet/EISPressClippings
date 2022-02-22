@@ -1,0 +1,67 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+.navbar { background-color: #ffffff; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #000000;
+  background-color: #fff;
+}
+p {
+  margin: 10px 0px;
+  padding-bottom: 20px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #037caf;
+  border-color: #000000;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  align: left;
+}
+.form-actions .btn, .form-actions .btn-group {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  align: left;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #000000;
+}
+.panel-heading {
+  padding: 10px 10px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.form-inline .form-control {
+   display: inline-block;
+   width: 100%;
+   vertical-align: initial;}
+a {
+  color: #337ab7;
+  text-decoration: none;
+  font-size: 15px
+}
+[role="button"] {
+  cursor: s-resize;
+}
+.radio label, .checkbox label {
+  min-height: 0px;
+  padding-left: 0px;
+  font-weight: 350;
+  cursor: pointer;
+  display: inline;
+  margin: 0px 10px 3px 0;
+}
+.form-inline .radio label, .form-inline .checkbox label {
+  padding-right: 70px;
+  display: inline;
+}
