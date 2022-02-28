@@ -3,7 +3,7 @@
  * your custom CSS modifications here.
  */
 
-.navbar { background-color: #ffffff; }
+.navbar { background-color: #eeeeee;}
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -55,7 +55,7 @@ a {
 }
 .radio label, .checkbox label {
   min-height: 0px;
-  padding-left: 0px;
+  padding-right: 0px;
   font-weight: 350;
   cursor: pointer;
   display: inline;
@@ -64,4 +64,15 @@ a {
 .form-inline .radio label, .form-inline .checkbox label {
   padding-right: 70px;
   display: inline;
+}
+.form-inline .radio input[type="radio"], .form-inline .checkbox input[type="checkbox"] {
+  position: relative;
+  margin-left: 0;
+  margin-right: 10px;
+}
+.alert {
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 18px;
 }
